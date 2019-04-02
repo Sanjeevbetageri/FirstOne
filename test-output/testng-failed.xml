@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.sfdc.qa.tests.LoginPageTest">
+        <methods>
+          <include name="ImgChk"/>
+          <include name="logiTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TestTitle"/>
+        </methods>
+      </class> <!-- com.sfdc.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

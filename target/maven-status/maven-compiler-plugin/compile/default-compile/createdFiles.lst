@@ -1,0 +1,4 @@
+com\sfdc\qa\base\TestBase.class
+com\sfdc\qa\pages\HomePage.class
+com\sfdc\qa\utilities\TestUtil.class
+com\sfdc\qa\pages\LoginPage.class
